@@ -16,18 +16,18 @@ var StarComponent = (function () {
     StarComponent.prototype.ngOnChanges = function () {
         this.starWidth = this.rating * 86 / 5;
     };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], StarComponent.prototype, "rating", void 0);
+    StarComponent = __decorate([
+        core_1.Component({
+            selector: 'ang-star',
+            templateUrl: 'app/shared/star.component.html',
+            styleUrls: ['app/shared/star.component.css']
+        })
+    ], StarComponent);
     return StarComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Number)
-], StarComponent.prototype, "rating", void 0);
-StarComponent = __decorate([
-    core_1.Component({
-        selector: 'ang-star',
-        templateUrl: 'app/shared/star.component.html',
-        styleUrls: ['app/shared/star.component.css']
-    })
-], StarComponent);
 exports.StarComponent = StarComponent;
 //# sourceMappingURL=star.component.js.map

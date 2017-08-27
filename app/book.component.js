@@ -10,13 +10,13 @@ var core_1 = require("@angular/core");
 var BookComponent = (function () {
     function BookComponent() {
     }
+    BookComponent = __decorate([
+        core_1.Component({
+            selector: 'book-app',
+            templateUrl: 'app/book.component.html'
+        })
+    ], BookComponent);
     return BookComponent;
 }());
-BookComponent = __decorate([
-    core_1.Component({
-        selector: 'book-app',
-        templateUrl: 'app/book.component.html'
-    })
-], BookComponent);
 exports.BookComponent = BookComponent;
 //# sourceMappingURL=book.component.js.map

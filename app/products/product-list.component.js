@@ -51,15 +51,15 @@ var ProductListComponent = (function () {
     ProductListComponent.prototype.ngOnInit = function () {
         console.log(" this is On init");
     };
+    ProductListComponent = __decorate([
+        core_1.Component({
+            selector: 'pm-products',
+            templateUrl: 'app/products/product-list.component.html',
+            //styles: ['h3 {color:red;\}']
+            styleUrls: ['app/products/product-list.component.css']
+        })
+    ], ProductListComponent);
     return ProductListComponent;
 }());
-ProductListComponent = __decorate([
-    core_1.Component({
-        selector: 'pm-products',
-        templateUrl: 'app/products/product-list.component.html',
-        //styles: ['h3 {color:red;\}']
-        styleUrls: ['app/products/product-list.component.css']
-    })
-], ProductListComponent);
 exports.ProductListComponent = ProductListComponent;
 //# sourceMappingURL=product-list.component.js.map
